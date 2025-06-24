@@ -13,8 +13,8 @@ class TwoThirdsOfLinkedList {
             return null;
         }
 
-        double totalNodes = 1;
-        double resultSteps=0;
+        int totalNodes = 1;
+        int resultSteps=0;
 
         Node<T> result = null;
         Node<T> runnerToEnd = head;
